@@ -33,6 +33,4 @@ and A Partridge in a Pear Tree
 - [X] ~~Replace number of gifts (i.e 2 Turtle Doves) with words (i.e Two Turtle Doves).~~
 - [ ] Enable users to enter in their own gifts.
 
-<br />
-<br />
 ## Merry Christmas, and a Happy New Year! ##
