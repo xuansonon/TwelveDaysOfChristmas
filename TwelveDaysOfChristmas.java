@@ -7,9 +7,7 @@ class TwelveDaysOfChristmas {
       System.out.println("On the " + days[i] + " day of Christmas\nMy true love gave to me:");
       for(int j = i; j >= 0; j--) {
         String giftLine = "";
-        if((i > 0) && (j == 0)) {
-          giftLine += "and ";
-        }
+        if((i > 0) && (j == 0)) giftLine += "and ";
         giftLine += (plural[j] + " " + gifts[j]);
         System.out.println(giftLine.substring(0,1).toUpperCase() + giftLine.substring(1));
       }
