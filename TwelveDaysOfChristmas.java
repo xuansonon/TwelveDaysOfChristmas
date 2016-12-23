@@ -1,10 +1,7 @@
-import java.io.*;
-
 class TwelveDaysOfChristmas {
   static String[] days = {"first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "nineth", "tenth", "eleventh", "twelveth"};
   static String[] gifts = {"Partridge in a Pear Tree", "Turtle Doves", "French Hens", "Calling Birds", "Golden Rings", "Geese a Laying", "Swans a Swimming", "Maids a Milking", "Ladies Dancing", "Lords a Leaping", "Pipers Piping", "Drummers Drumming"};
   static String[] plural = {"a", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"};
-
   public static void main(String[] args) {
     for(int i = 0; i < 12; i++) {
       System.out.println("On the " + days[i] + " day of Christmas\nMy true love gave to me:");
